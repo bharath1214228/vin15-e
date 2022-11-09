@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.aero-mag.com	TRUE	/	FALSE	1999999999	PHPSESSID	ddpvq880al14sk8cq6ab2qvdsf
+www.aerospacemanufacturinganddesign.com	TRUE	/	FALSE	1999999999	ARRAffinity	0717d172aa605ff8313096b84695912b9aad91d616d460cfaa931ab50b308cc9
+giecdn.azurewebsites.net	TRUE	/	FALSE	1999999999	ARRAffinity	b5043d8c418be41016540ea78c7ddc10e3f04e5df6710992a2f08590b690955c
+

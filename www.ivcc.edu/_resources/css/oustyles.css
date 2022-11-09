@@ -1,0 +1,77 @@
+/*
+Implementations Skeletor v3 - 5/10/2014
+
+oustyles.css
+
+Add styles to overwrite customer CSS, USE WITH CAUTION.
+
+Contributors: Your Name Here
+Last Updated: Enter Date Here
+*/
+
+.horizontal-list li{
+	display: inline-block;
+}
+
+.horizontal-list li::before{
+	background: none;
+}
+
+.ou-form .checkbox input[type="checkbox"], .ou-form .radio input[type="radio"] {
+    position: absolute;
+    margin-top: 4px\9;
+    margin-left: 20px !important; 
+	width: 100%;
+}
+
+input[type="checkbox"] + label::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: -20px !important;
+    background-color: #f2f2f2;
+}
+
+input[type="checkbox"]:checked + label::after {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: -0.95em;
+    margin-left: -10px !important;
+    height: 8px;
+    width: 3px;
+    border-right: 2px solid #9ef7ff;
+    border-bottom: 2px solid #9ef7ff;
+    -webkit-transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    transform: rotate(50deg);
+}
+
+input[type="radio"] + label::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #f2f2f2;
+    border-radius: 100em;
+	margin-left: -20px !important;
+}
+
+input[type="radio"]:checked + label::after {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: -0.8em;
+    margin-left: -14px !important;
+    height: 8px;
+    width: 8px;
+    background-color: #9ef7ff;
+    border-radius: 100%;
+}
+
+.ou-form .checkbox label, .ou-form .radio label {
+    text-indent: 10px;
+}

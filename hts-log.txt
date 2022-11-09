@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 09 Nov 2022 21:32:34 at https://guides.lib.ua.edu/AerospaceEngineering/websites +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://guides.lib.ua.edu/AerospaceEngineering/websites -O1 "C:\My Web Sites\vin15" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:33:30	Error: 	"Not Found" (404) at link https://guides.lib.ua.edu/AerospaceEngineering/guides.lib.ua.edu/az.php (from https://guides.lib.ua.edu/AerospaceEngineering/websites)
+21:33:30	Error: 	"Not Found" (404) at link https://www.bis-space.com/wp-content/uploads/2011/01/Spaceflight-Post-Cover-2017-07.png (from https://guides.lib.ua.edu/AerospaceEngineering/starthere)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 39 seconds : 73 links scanned, 70 files written (3331411 bytes overall) [2084486 bytes received at 21055 bytes/sec], 1872213 bytes transferred using HTTP compression in 38 files, ratio 27%, 1.8 requests per connection
+(2 errors, 0 warnings, 0 messages)
